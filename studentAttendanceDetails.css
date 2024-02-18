@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light background color */
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: url(https://img.freepik.com/premium-photo/wide-angle-view-school-classroom-with-diverse-group-children-taking-test-male-teacher-foreg_236854-41221.jpg?w=740);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.header {
+    background-color: #65c7a971; /* Bootstrap's primary color */
+    color: rgb(12, 12, 12);
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #14c2da;
+}
+
+.col {
+    text-align: center;
+}
+
+.mainContent {
+    margin-top: 20px;
+}
+
+.totlaCount {
+    margin-top: 20px;
+}
+
+.addButton {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Add more styling as needed */

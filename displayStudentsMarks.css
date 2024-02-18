@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light background color */
+    color:#f5df4d;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: url(https://img.freepik.com/free-photo/city-committed-education-collage-concept_23-2150062199.jpg?w=740&t=st=1708200376~exp=1708200976~hmac=8769a059331881041a44c4bda6c3da516e674a84bdb494c7719ddca62d2a6538);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+     /* Bootstrap's primary color */
+}
+
+.header {
+    /* background-color: #3cc7c7; Bootstrap's primary color */
+    
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #070707;
+}
+
+.col {
+    text-align: center;
+}
+
+.mainContent {
+    margin-top: 20px;
+}
+
+/* Add more styling as needed */

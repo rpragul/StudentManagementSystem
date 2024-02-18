@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="addStudentMarkDetails.css">
+    <script defer src="addStudentMarkDetails.js"></script>
+    <title>ADD STUDENTS MARK </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>ADD STUDENTS MARK</h1>
+        </div>
+        <form class="content">
+            <div class="name">
+                <label for="sName">NAME :</label>
+                <input type="text" id="sName" class=" sName form-control">
+            </div>
+
+            <div class="registerNo">
+                <label for="sRegisterNo">REGISTER NO</label>
+                <input type="number" id="sRegisterNo" class="sRegisterNo form-control">
+
+
+            </div>
+
+        </form>
+        <br>
+        <div class="marks">
+            <div class="title">
+                <h3>ADD MARKS</h3>
+            </div><br>
+            <form class="markContent">
+                <div class="row">
+                    <div class="col " id="mark">
+                        <label for="tamilMark">TAMIL</label>
+                        <input type="number" id="tamilMark" class="form-control">
+                    </div>
+                    <div class="col " id="mark">
+                        <label for="englishMark">ENGLISH</label>
+                        <input type="number" id="englishMark" class="form-control">
+                    </div>
+                    <div class="col " id="mark">
+                        <label for="mathsMark">MATHS</label>
+                        <input type="number" id="mathsMark" class="form-control">
+                    </div>
+                    <div class="col " id="mark">
+                        <label for="scienceMark">SCIENCE</label>
+                        <input type="number" id="scienceMark" class="form-control">
+                    </div>
+                    <div class="col " id="mark">
+                        <label for="socialScienceMark">SOCIAL SCIENCE</label>
+                        <input type="number" id="socialScienceMark" class="form-control">
+                    </div>  
+                </div><br>
+
+                <div class="col" id="mark">
+                    <button class="getTotal btn btn-info" id="getTotal">GET TOTAL</button>
+                </div><br>
+
+                <div class="row">
+                    <div class="col col-2">
+                        <div class="total">
+                            <label for="">TOTAL : </label>
+                          <input type="text" class="totalMark form-control" id="totalMark">
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+
+            
+        </div>
+        <br>
+        <div class="addMarksButton">
+            <button class="addMarksButton btn btn-success" id="addMarksButton" onclick="addStudentMarks(event)">ADD
+                MARKS</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

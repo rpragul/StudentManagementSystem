@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="addStudentDetails.css">
+    <script defer  src="addStudentDetails.js"></script>
+    <title>ADD STUDENT DETAILS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="projectTitle">
+            <h1>STUDENT MANAGEMENT SYSTEM</h1>
+        </div>
+
+        <div class="title">
+            <h2>ADD STUDENT</h2>
+        </div>
+       
+        <div class="content">
+           <div class="name" id="name">
+            <label for="name">NAME :</label>
+            <input  id="sName" type="text" class=" sName form-control" required>
+           </div>
+           <div class="registerNo" id="registerNo">
+            <label for="registerNo">REGISTER NO :</label>
+            <input  id="sRegisterNo" type="number" class=" sRegisterNo form-control" required>
+           </div>
+           <div class="dateOfBirth" id="dateOfBirth">
+            <label for="dateOfBirth">DATE OF BIRTH :</label>
+            <input  id="sDateOfBirth" type="date" class=" sDateOfBirth form-control" required>
+           </div>
+        </div><br>
+        <div class="submit">
+            <button id="addStudentButton" class="btn btn-success" onclick="addStudentDetails(event)">ADD STUDENT</button>
+        </div>
+    </div>
+</body>
+</html>
